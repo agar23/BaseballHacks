@@ -33,7 +33,7 @@ class App extends Component {
               <div className='row'>
                 <div className='col-sm topBox'>
                   <h1 className="display-4 mainHeading">Hey, Boston Red Sox</h1>
-                  <p className="lead subHeading">Do this to win <span className='subMinHeading'>(it's backed by data science)</span></p>
+                  <p className="lead subHeading">Do This To Win <span className='subMinHeading'>(it's backed by data science, by non-data-scientists)</span></p>
                 </div>
                 <div className='col-sm'>
                   <img  src={logo} alt="fireSpot" height="200" width="200"/>
@@ -45,8 +45,8 @@ class App extends Component {
     <Accordion>
         <AccordionItem>
             <AccordionItemTitle>
-                <h3>Optimal Attendance</h3>
-                <div>Optimal <b>Attendance</b> range for target wins of <b>>95</b> per season: <b>1,556,402 - 3,062,699</b></div>
+                <h3>Get more people to come to your games</h3>
+                <div>Optimal <b className="category">Attendance</b> range for target wins of <b>>95</b> per season: <b className="category-value">1,556,402 - 3,062,699</b></div>
             </AccordionItemTitle>
             <AccordionItemBody>
               <div className='row'>
@@ -66,8 +66,8 @@ class App extends Component {
         </AccordionItem>
         <AccordionItem>
             <AccordionItemTitle>
-                <h3>Optimal Team Payroll</h3>
-                <div>Optimal <b>Team Payroll</b> range for target wins of <b>>95</b> per season: <b>$98,696,500 - $206,247,686</b></div>
+                <h3>Pay your players more</h3>
+                <div>Optimal <b className="category">Team Payroll</b> range for target wins of <b>>95</b> per season: <b className="category-value">$98,696,500 - $206,247,686</b></div>
             </AccordionItemTitle>
             <AccordionItemBody>
             <div className='row'>
@@ -87,8 +87,8 @@ class App extends Component {
         </AccordionItem>
         <AccordionItem>
             <AccordionItemTitle>
-              <h3>Optimal Population Count in Massachusetts</h3>
-              <div>Optimal <b>Population</b> range for target wins of <b>>95</b> per season: <b>5,774,000 - 6,708,874</b></div>
+              <h3>Get people to have more babies in Massachusetts</h3>
+              <div>Optimal <b className="category">Population</b> range in Massachusetts for target wins of <b>>95</b> per season: <b className="category-value">5,774,000 - 6,708,874</b></div>
             </AccordionItemTitle>
             <AccordionItemBody>
             <div className='row'>
@@ -108,8 +108,8 @@ class App extends Component {
         </AccordionItem>
         <AccordionItem>
             <AccordionItemTitle>
-                <h3>Optimal Crime Index in Massachusetts</h3>
-                <div>Optimal <b>Crime Index</b> range for target wins of <b>>95</b> per season: <b>164,538 - 354,216</b></div>
+                <h3>Don't do this one</h3>
+                <div>Optimal <b className="category">Crime Index</b> range in Massachusetts for target wins of <b>>95</b> per season: <b className="category-value">164,538 - 354,216</b></div>
             </AccordionItemTitle>            
             <AccordionItemBody>
               <div className='row'>

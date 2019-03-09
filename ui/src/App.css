@@ -59,6 +59,14 @@
   font-size: 15px !important;
 }
 
+.category {
+  color: #BD3039
+}
+
+.category-value {
+  color: #0C2340;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

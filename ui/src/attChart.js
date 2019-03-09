@@ -4,7 +4,7 @@ import {
 } from 'recharts';
 import ChartData from './resources/attendance.json';
 
-class Chart extends Component {
+class attChart extends Component {
   render() {
     return (
         <ScatterChart
@@ -24,4 +24,4 @@ class Chart extends Component {
   }
 };
 
-export default Chart;
+export default attChart;

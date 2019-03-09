@@ -9,11 +9,13 @@ import { Jumbotron, Container } from 'reactstrap';
 
 import Chart1 from './attChart';
 import Chart2 from './payrollChart';
+import Chart3 from './crimeChart';
 import Stats from './stats';
 
 import logo from './resources/redSox.png'
 import AttChartData from './resources/attendance.json';
 import PayChartData from './resources/payroll.json';
+import CrimeChartData from './resources/crime.json';
 
 import 'react-accessible-accordion/dist/fancy-example.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -77,6 +79,27 @@ class App extends Component {
                     min={PayChartData.optimalRangeMin}
                     max={PayChartData.optimalRangeMax}
                     pearson={PayChartData.pearsonCorr}/>
+                </div>
+              </div>
+            </AccordionItemBody>
+        </AccordionItem>
+        <AccordionItem>
+            <AccordionItemTitle>
+                <h3>Optimal Crime Index in Massachusetts</h3>
+                <div>Optimal <b>Crime Index</b> range for target wins of <b>>95</b> per season: <b>164,538 - 354,216</b></div>
+            </AccordionItemTitle>
+            <AccordionItemBody>
+            <div className='row'>
+                <div>
+                  <Chart3
+                  width={800}
+                  height={500}/>
+                </div>
+                <div>
+                <Stats 
+                    min={CrimeChartData.optimalRangeMin}
+                    max={CrimeChartData.optimalRangeMax}
+                    pearson={CrimeChartData.pearsonCorr}/>
                 </div>
               </div>
             </AccordionItemBody>

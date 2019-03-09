@@ -34,7 +34,9 @@
 }
 
 .list {
-  text-align: left
+  text-align: left;
+  padding: 50px;
+
 }
 
 .topBox {

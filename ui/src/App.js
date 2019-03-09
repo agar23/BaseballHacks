@@ -63,7 +63,7 @@ class App extends Component {
         <AccordionItem>
             <AccordionItemTitle>
                 <h3>Optimal Team Payroll</h3>
-                <div>Optimal <b>Team Payroll</b> range for target wins of <b>>95</b> per season: <b>98,696,500 - 206,247,686</b></div>
+                <div>Optimal <b>Team Payroll</b> range for target wins of <b>>95</b> per season: <b>$98,696,500 - $206,247,686</b></div>
             </AccordionItemTitle>
             <AccordionItemBody>
             <div className='row'>
